@@ -6,9 +6,7 @@
     <version>7.0</version>
     <packaging>war</packaging>
     <dependencies>
- <!-- job1 on Github webhook  -->
-
-        <dependency>
+      <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-api</artifactId>
             <version>7.0</version>
@@ -21,6 +19,8 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+             <!-- job1 on Github webhook  -->
+
         <failOnMissingWebXml>false</failOnMissingWebXml>
     </properties>
 </project>
